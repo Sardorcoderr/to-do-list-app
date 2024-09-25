@@ -1,0 +1,184 @@
+/* author: https://codepen.io/NoahFleitz/pen/MJxrRr
+Noah
+ */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff, #262c49);
+    /* background-image: url(https://www.w3schools.com/images/background_in_space.webp); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-theme .container {
+    background-color: #444;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input, #task-datetime {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme #task-input, body.dark-theme #task-datetime {
+    background-color: #555;
+    color: white;
+    border: 1px solid #aaa;
+}
+
+#task-datetime {
+    max-width: 200px;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #218838;
+}
+
+#toggle-theme-btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#toggle-theme-btn:hover {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme li {
+    background-color: #555;
+    color: white;
+    border: 1px solid #aaa;
+}
+
+.edit-task {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.time {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+button.edit-btn {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+button.edit-btn:hover {
+    background-color: #0069d9;
+}
+
+
+
+/* .div {
+    width: 100px;
+    height: 100px;
+    /* position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse; */
+
+  /* }  */
+  .nisme{
+    color: #c82333;
+    /* text-align: 10px; */
+    /* align-items: 10px; */
+    font-size: 24px;
+  }
+  .group{
+    color: #262c49;
+    font-size: smaller;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
